@@ -12,7 +12,7 @@ Wir stellen Ihnen ein Makro zur Verfügung, das das Datumsformat in erkennbare A
 [für Citavi 4 und 5](C4+_Change_date_format_from_dd-MMM-yyyy_to_standard_format.cs)
 
 ## Anwendung
-Folgen Sie der Anleitung in [diesem Artikel](\readme.de.md), um das Makro einzusetzen.
+Folgen Sie der Anleitung in [diesem Artikel](/readme.de.md), um das Makro einzusetzen.
 
 ## Autor
 Jörg Pasch @joepasch

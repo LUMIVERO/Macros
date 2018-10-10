@@ -32,7 +32,7 @@ Anschließend erzeugt das Makro vier Textdateien im Ordner des aktuellen Projekt
 
 
 ## Anwendung
-Folgen Sie der Anleitung in [diesem Artikel](\readme.de.md), um das Makro einzusetzen.
+Folgen Sie der Anleitung in [diesem Artikel](/readme.de.md), um das Makro einzusetzen.
 
 ## Autor
 Jörg Pasch @joepasch

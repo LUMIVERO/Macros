@@ -11,7 +11,7 @@ Wir stellen Ihnen ein Makro zur Verfügung, das alle verknüpften PDF-Dateien du
 [für Citavi 4](C4_Extract_DOIs_from_linked_PDFs.cs)
 
 ## Anwendung
-Folgen Sie der Anleitung in [diesem Artikel](\readme.de.md), um das Makro einzusetzen.
+Folgen Sie der Anleitung in [diesem Artikel](/readme.de.md), um das Makro einzusetzen.
 
 Bitte beachten Sie: Es gibt keine Fortschrittsanzeige. Auch wenn es so aussieht, als ob keine Aktion stattfindet, findet im Hintergrund die Recherche statt. Sobald alle Titel geprüft wurden, erscheint eine Meldung.
 

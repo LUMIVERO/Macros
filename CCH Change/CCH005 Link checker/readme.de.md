@@ -10,7 +10,7 @@ Das hier bereitgestellte Makro erfüllt diese Anforderung. Es überprüft, ob di
 [für Citavi 4 und 5](C4+_Check_URL_and_set_AccessDate.cs)
 
 ## Anwendung
-Folgen Sie der Anleitung in [diesem Artikel](\readme.de.md), um das Makro einzusetzen.
+Folgen Sie der Anleitung in [diesem Artikel](/readme.de.md), um das Makro einzusetzen.
 
 ## Autor
 Sebastian Pabel @sebastianpabel

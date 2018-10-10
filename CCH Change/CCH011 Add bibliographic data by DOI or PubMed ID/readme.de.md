@@ -16,7 +16,7 @@ Wir stellen Ihnen ein Makro zur Verfügung, das nach TIteln mit DOI-Adressen ode
 [für Citavi 4](C4_Update_Bibliographic_data_from_DOI_or_PubMed_Search.cs)
 
 ## Anwendung
-Folgen Sie der Anleitung in [diesem Artikel](\readme.de.md), um das Makro einzusetzen.
+Folgen Sie der Anleitung in [diesem Artikel](/readme.de.md), um das Makro einzusetzen.
 
 Bitte beachten Sie: Es gibt keine Fortschrittsanzeige. Auch wenn es so aussieht, als ob keine Aktion stattfindet, findet im Hintergrund die Recherche statt. Sobald alle Titel geprüft wurden, erscheint eine Meldung.
 

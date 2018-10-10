@@ -11,7 +11,7 @@ Das hier bereitgestellte Makro ersetzt die Kommas im Feld Schlagwort durch Semik
 [für Citavi 5](C5_Split_Keywords.cs)
 
 ## Anwendung
-Folgen Sie der Anleitung in [diesem Artikel](\readme.de.md), um das Makro einzusetzen.
+Folgen Sie der Anleitung in [diesem Artikel](/readme.de.md), um das Makro einzusetzen.
 
 Passen Sie ggf. das Makro in Zeile 19 an, wenn Sie in Ihrem alten Programm ein anderes Trennzeichen als ein Komma für Schlagwörter verwendet haben.
 

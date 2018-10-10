@@ -12,7 +12,7 @@ Wir stellen Ihnen ein Makro zur Verfügung, das nach manuell erzeugten Kurztitel
 [für Citavi 4 und 5](C4+_Set_ShortTitleUpdateType_To_Automatic.cs)
 
 ## Anwendung
-Folgen Sie der Anleitung in [diesem Artikel](\readme.de.md), um das Makro einzusetzen.
+Folgen Sie der Anleitung in [diesem Artikel](/readme.de.md), um das Makro einzusetzen.
 
 ## Autor
 Jörg Pasch @joepasch

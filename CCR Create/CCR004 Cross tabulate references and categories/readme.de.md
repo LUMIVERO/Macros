@@ -9,7 +9,7 @@ Das hier erhältliche Makro erzeugt eine solche Tabelle im CSV-Format.
 [für Citavi 4 und neuer](C4+_CrossTable_References_And_Categories_As_CSV.cs)
 
 ## Anwendung
-Folgen Sie der Anleitung in [diesem Artikel](\readme.de.md), um das Makro einzusetzen.
+Folgen Sie der Anleitung in [diesem Artikel](/readme.de.md), um das Makro einzusetzen.
 
 ## Autor
 Sebastian Pabel @sebastianpabel

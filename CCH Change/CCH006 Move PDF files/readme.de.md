@@ -14,7 +14,7 @@ Das hier bereitgestellte Makro erfüllt die oben beschriebene Anforderung. Erste
 [für Citavi 3](C3_Move_PDFs_From_CitaviFiles_To_External_Folder.cs)
 
 ## Anwendung
-Folgen Sie der Anleitung in [diesem Artikel](\readme.de.md), um das Makro einzusetzen.
+Folgen Sie der Anleitung in [diesem Artikel](/readme.de.md), um das Makro einzusetzen.
 
 **WICHTIG:** Sichern Sie auch alle Dateien im Ordner CitaviFiles des betreffenden Projekts.
 

@@ -14,7 +14,7 @@ Das hier bereitgestellte Makro kann diese Zuweisungen für alle Titel oder die T
 
 
 ## Anwendung
-Folgen Sie der Anleitung in [diesem Artikel](\readme.de.md), um das Makro einzusetzen.
+Folgen Sie der Anleitung in [diesem Artikel](/readme.de.md), um das Makro einzusetzen.
 
 Wählen Sie bitte in *Zeile 29* des Makros die gewünschte Richtung (Titel -> Wissenselement  = `1`, Wissenselement -> Titel = `2`) und stellen Sie in den Zeilen danach ein, welche Eigenschaften (Kategorien, Gruppen und/oder Schlagwörter) übernommen werden sollen, indem Sie den entsprechenden Wert auf `true` setzen
 

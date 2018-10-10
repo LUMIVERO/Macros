@@ -12,7 +12,7 @@ Das hier bereitgestellte Makro ermittelt für jeden Titel in der Auswahl den Kat
 
 
 ## Anwendung
-Folgen Sie der Anleitung in [diesem Artikel](\readme.de.md), um das Makro einzusetzen.
+Folgen Sie der Anleitung in [diesem Artikel](/readme.de.md), um das Makro einzusetzen.
 
 ## Autor
 Sebastian Pabel @sebastianpabel

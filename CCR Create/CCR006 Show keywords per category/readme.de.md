@@ -10,7 +10,7 @@ Das hier erhältliche Makro erstellt eine Textdatei, die die gewünschte Informa
 [für Citavi 4 und neuer](C4+_List_Keywords_for_Categories.cs)
 
 ## Anwendung
-Folgen Sie der Anleitung in [diesem Artikel](\readme.de.md), um das Makro einzusetzen.
+Folgen Sie der Anleitung in [diesem Artikel](/readme.de.md), um das Makro einzusetzen.
 
 ## Autor
 Sebastian Pabel @sebastianpabel

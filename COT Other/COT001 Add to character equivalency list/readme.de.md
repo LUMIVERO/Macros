@@ -10,7 +10,7 @@ Wir stellen ein Makro zur Verfügung, mit dem Sie mit erheblicher Zeitersparnis 
 [für Citavi 5 und neuer](C5+_Character_Equivalency_List.cs)
 
 ## Anwendung
-Folgen Sie der Anleitung in [diesem Artikel](\readme.de.md), um das Makro einzusetzen.
+Folgen Sie der Anleitung in [diesem Artikel](/readme.de.md), um das Makro einzusetzen.
 
 Die Windows Zeichentabelle öffnen Sie, wenn Sie `Windows+R` drücken und den Befehl `charmap.exe` eingeben und mit der Eingabe-Taste abschliessen.
 

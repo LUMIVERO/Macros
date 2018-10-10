@@ -13,7 +13,7 @@ Wir stellen Ihnen hier ein Makro zur Verfügung, das strukturierte Textdateien i
 [für Citavi 4](C4_Import_Journals.cs)
 
 ## Anwendung
-Folgen Sie der Anleitung in [diesem Artikel](\readme.de.md), um das Makro einzusetzen.
+Folgen Sie der Anleitung in [diesem Artikel](/readme.de.md), um das Makro einzusetzen.
 
 Die zu importierende Zeitschriftenliste muss als reine Textdatei vorliegen und sollte folgende Struktur haben: 
 

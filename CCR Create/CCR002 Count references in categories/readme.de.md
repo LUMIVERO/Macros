@@ -9,7 +9,7 @@ Das hier erhältliche Makro erstellt die gewünschte Liste im Ausgabe-Fenster de
 [für Citavi 4 und neuer](C4+_Count_References_In_Categories.cs)
 
 ## Anwendung
-Folgen Sie der Anleitung in [diesem Artikel](\readme.de.md), um das Makro einzusetzen.
+Folgen Sie der Anleitung in [diesem Artikel](/readme.de.md), um das Makro einzusetzen.
 
 ## Autor
 Jörg Pasch @joepasch

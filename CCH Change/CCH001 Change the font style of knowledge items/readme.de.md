@@ -13,7 +13,7 @@ Wir stellen Ihnen ein Makro zur Verfügung, das diese Anforderung erfüllt.
 
 
 ## Anwendung
-Folgen Sie der Anleitung in [diesem Artikel](\readme.de.md), um das Makro einzusetzen.
+Folgen Sie der Anleitung in [diesem Artikel](/readme.de.md), um das Makro einzusetzen.
 
 Das Makro öffnet in rascher Folge jedes Wissenselement (Textzitate und Gedanken) in einem Bearbeitungsfenster und nimmt die Formatierung so vor, wie im Programmcode des Makros eingestellt:
 

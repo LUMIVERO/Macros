@@ -10,7 +10,7 @@ Mit angehängtem Makro können Sie eine Liste im CSV-Format ausgeben, die für j
 [für Citavi 5 und neuer](C5+_List_LinksTo_LinksFrom.cs)
 
 ## Anwendung
-Folgen Sie der Anleitung in [diesem Artikel](\readme.de.md), um das Makro einzusetzen.
+Folgen Sie der Anleitung in [diesem Artikel](/readme.de.md), um das Makro einzusetzen.
 
 ## Autor
 Sebastian Pabel @sebastianpabel

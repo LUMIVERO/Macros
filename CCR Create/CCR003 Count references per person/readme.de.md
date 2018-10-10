@@ -10,7 +10,7 @@ Sie möchten eine Liste der in Citavi vorhandenen Autoren, Herausgeber, Institut
 [für Citavi 4 und neuer](C4+_Count_References_Per_Persons.cs)
 
 ## Anwendung
-Folgen Sie der Anleitung in [diesem Artikel](\readme.de.md), um das Makro einzusetzen.
+Folgen Sie der Anleitung in [diesem Artikel](/readme.de.md), um das Makro einzusetzen.
 
 ## Autor
 Jörg Pasch @joepasch

@@ -12,7 +12,7 @@ Wir stellen Ihnen hier ein Makro zur Verfügung, das diese Liste herunterlädt u
 
 
 ## Anwendung
-Folgen Sie der Anleitung in [diesem Artikel](\readme.de.md), um das Makro einzusetzen.
+Folgen Sie der Anleitung in [diesem Artikel](/readme.de.md), um das Makro einzusetzen.
 
 
 ## Autor
