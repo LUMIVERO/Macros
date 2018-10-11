@@ -13,7 +13,7 @@ We provide a macro here that can import structured text data.
 [für Citavi 4](C4_Import_Journals.cs)
 
 ## Anwendung
-Follow the instructions in  [this Artikel](\readme.md) to run the macro.
+Follow the instructions in  [this Artikel](/readme.md) to run the macro.
 
 The list of periodicals to be imported needs to be saved as a .txt file and needs to fulfill the following requirements:
 

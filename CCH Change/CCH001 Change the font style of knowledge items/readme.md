@@ -14,7 +14,7 @@ To change the text style for knowledge items that were already saved, use the ma
 
 
 ## Usage
-Follow the instructions in [this article](\readme.md) to run the macro.
+Follow the instructions in [this article](/readme.md) to run the macro.
 
 The macro opens each knowledge item window and applies the following formatting:
 

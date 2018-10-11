@@ -13,7 +13,7 @@ The following macro downloads the PubMed list and imports it into your project.
 
 
 ## Usage
-Folgen the steps described in [this article](\readme.md) to run the macro.
+Folgen the steps described in [this article](/readme.md) to run the macro.
 
 
 ## Authoor
