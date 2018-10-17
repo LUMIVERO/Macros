@@ -81,8 +81,6 @@ public static class CitaviMacro
    
 		}
 
-		activeProject.Save();
-
 		// Message upon completion
 		 string message = " {0} reference(s) in selection\n {1} reference(s) changed\n";
 		 message = string.Format(message, foundCounter.ToString(), changeCounter.ToString());
