@@ -8,9 +8,9 @@ Oder Sie haben nur bei den Wissenselementen mit Kategorien, Schlagwörtern oder 
 Das hier bereitgestellte Makro kann diese Zuweisungen für alle Titel oder die Titel in der aktuellen Auswahl vornehmen.
 
 ## Download
-[für Citavi 6](C6_Copy_Categories_Groups_Keywords_To_Reference_Or_KnowledgeItem)
+[für Citavi 6](C6_Copy_Categories_Groups_Keywords_To_Reference_Or_KnowledgeItem.cs)
 
-[für Citavi 5](C5_Copy_Categories_Groups_Keywords_To_Reference_Or_KnowledgeItem)
+[für Citavi 5](C5_Copy_Categories_Groups_Keywords_To_Reference_Or_KnowledgeItem.cs)
 
 
 ## Anwendung
