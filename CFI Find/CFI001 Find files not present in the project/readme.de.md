@@ -37,4 +37,5 @@ Anschließend erzeugt das Makro vier Textdateien im Ordner des aktuellen Projekt
 Folgen Sie der Anleitung in [diesem Artikel](/readme.de.md), um das Makro einzusetzen.
 
 ## Autor
-Jörg Pasch @joepasch
+Jörg Pasch @joepasch (für Citavi 4 und 5)
+Jan Jakob B (für Citavi 6)
