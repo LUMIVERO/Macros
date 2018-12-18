@@ -26,6 +26,8 @@ Anschließend erzeugt das Makro vier Textdateien im Ordner des aktuellen Projekt
     Das ist eine alphabetisch sortierte Liste aller Dateien aus Particular_Files_Checked_For_Link_From_Project.txt, die NICHT in ALL_Files_LINKED_From_Project.txt vorkommen (Differenzmenge).
 
 ## Download
+[für Citavi 6](C6_List_Linked_And_Not_Linked_Files.cs)
+
 [für Citavi 5](C5_List_Linked_And_Not_Linked_Files.cs)
 
 [für Citavi 4](C4_List_Linked_And_Not_Linked_Files.cs)
