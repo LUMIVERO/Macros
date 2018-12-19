@@ -18,7 +18,7 @@ public static class CitaviMacro
 {
     public static void Main()
     {
-        //REQUIRES Citavi 5
+        //REQUIRES Citavi 6
 
         //reference to the active project and the main window
         System.Windows.Forms.Form primaryMainForm = Program.ActiveProjectShell.PrimaryMainForm;
