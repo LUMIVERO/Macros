@@ -8,7 +8,9 @@ Sie haben Quellennachweise im Text mit den vollständigen Nachweisen im Literatu
 Das hier bereitgestellte Makro für Microsoft Word kann die Vorlage zuweisen.
 
 ## Download
-[Word Macro](CitaviReferenceLink-hyperlink.bas)
+[Word Macro: Citavi 4 und 5](C4+_CitaviReferenceLink-hyperlink.bas)
+
+[Word Macro: Citavi 6](C6_CitaviReferenceLink-hyperlink.bas)
 
 ## Anwendung
 

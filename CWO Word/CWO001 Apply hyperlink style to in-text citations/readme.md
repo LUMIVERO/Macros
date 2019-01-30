@@ -8,7 +8,9 @@ You linked citations in your text to the bibliography as described in our [manua
 The macro for Microsoft Word provided here helps you to achieve this goal.
 
 ## Download
-[Word Macro](CitaviReferenceLink-hyperlink.bas)
+[Word Macro: Citavi 4 und 5](C4+_CitaviReferenceLink-hyperlink.bas)
+
+[Word Macro: Citavi 6](C6_CitaviReferenceLink-hyperlink.bas)
 
 ## Usage
 
