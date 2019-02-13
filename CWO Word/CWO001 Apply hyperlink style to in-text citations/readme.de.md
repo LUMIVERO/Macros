@@ -12,8 +12,6 @@ Das hier bereitgestellte Makro für Microsoft Word kann die Vorlage zuweisen.
 
 [Word Macro: Citavi 6](C6_CitaviReferenceLink-hyperlink.bas)
 
-[Word Macro: Citavi 6 (nur Jahreszahl als Hyperlink)](C6_CitaviReferenceLink-hyperlink-yearonly.bas)
-
 ## Anwendung
 
 1. Laden Sie das hier bereitgestellte Makro für Word herunter (mit Rechtsklick auf den Link oben und "Link speichern unter...")
