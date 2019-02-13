@@ -10,10 +10,7 @@ Das hier bereitgestellte Makro für Microsoft Word kann die Vorlage zuweisen.
 ## Download
 [Word Macro: Citavi 4 und 5](C4+_CitaviReferenceLink-hyperlink.bas)
 
-
 [Word Macro: Citavi 6](C6_CitaviReferenceLink-hyperlink.bas)
-
-[Word Macro: Citavi 6 (nur Jahreszahl)](C6_CitaviReferenceLink-hyperlink-yearonly.bas)
 
 ## Anwendung
 

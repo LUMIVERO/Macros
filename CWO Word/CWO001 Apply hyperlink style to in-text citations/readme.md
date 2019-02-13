@@ -12,8 +12,6 @@ The macro for Microsoft Word provided here helps you to achieve this goal.
 
 [Word Macro: Citavi 6](C6_CitaviReferenceLink-hyperlink.bas)
 
-[Word Macro: Citavi 6 (year only)](C6_CitaviReferenceLink-hyperlink-yearonly.bas)
-
 ## Usage
 
 1. Download the Macro provided above.
