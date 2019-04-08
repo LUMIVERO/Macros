@@ -20,7 +20,7 @@ The macro for Microsoft Word provided here helps you to achieve this goal.
 1. Start Word.
 1. In Word press `ALT+F11` to open the VBA macro editor.
 1. In the Macro Editor on the **File**  menu, select **Import file**.
-1. Select the file `CitaviReferenceLink-hyperlink.bas` file you downloaded.
+1. Select the `CitaviReferenceLink-hyperlink.bas` file you downloaded.
 1. Close the Macro Editor.
 1. In Word, right-click the Quick Access Toolbar (i.e. the toolbar found at the very top of Word.)
 1. Click *Customize Quick Access Toolbar*. Under *Choose commmands from*, select *Macros*.
