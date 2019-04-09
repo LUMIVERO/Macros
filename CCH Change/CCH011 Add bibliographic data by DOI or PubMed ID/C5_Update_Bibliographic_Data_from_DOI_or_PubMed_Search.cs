@@ -21,7 +21,8 @@ public static class CitaviMacro
 	{
 		//****************************************************************************************************************
 		// UPDATE BIBLIOGRAPHIC DATA FROM PMID OR DOI-SEARCH
-		// Version 2.1 -- 2015-01-12
+		// Version 2.2 -- 2019-04-09
+        //    -- updated to work with Citavi 6
 		//
 		// This macro iterates through the references in a selection ("filter").
 		// If they have a DOI or PMID, it downloads bibliographical data and owverwrites the reference's data.
@@ -62,6 +63,7 @@ public static class CitaviMacro
 			foreach (Reference reference in referencesWithDoi)
 			{
 				currentRef++;
+                
 				
 				// Look up PMID. If that fails, look up DOI. If no data is found, move on.
 				DebugMacro.WriteLine(string.Format(message, currentRef.ToString(), overallRefs.ToString(), reference.ShortTitle, ""));
