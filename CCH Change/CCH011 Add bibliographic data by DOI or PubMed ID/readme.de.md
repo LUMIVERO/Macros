@@ -6,11 +6,12 @@ Ihnen liegt ein Projekt vor, in dem mehrere Titel mit unvollständigen Titelanga
 (Oktober 2015) PubMed hat seine Schnittstelle für die Datenabfrage geändert. Das hier bereitgestellte Makro kann nur noch mit Citavi 5 Daten über die PubMed-ID beziehen.
 
 
-
 ## Lösung
 Wir stellen Ihnen ein Makro zur Verfügung, das nach TIteln mit DOI-Adressen oder PubMed-IDs in Ihrem Projekt sucht. Jede gefundene Adresse bzw. ID wird für eine Abfrage genutzt. Sofern PubMed Daten liefert, werden diese genutzt, um die vorhandenen Titeldaten zu überschreiben. Wenn PubMed keine Daten vorhält, wird die Anfrage an crossref.org übergeben.
 
 ## Download
+[für Citavi 6](C6_Update_Bibliographic_Data_from_DOI_or_PubMed_Search.cs)
+
 [für Citavi 5](C5_Update_Bibliographic_Data_from_DOI_or_PubMed_Search.cs)
 
 [für Citavi 4](C4_Update_Bibliographic_Data_from_DOI_or_PubMed_Search.cs)
