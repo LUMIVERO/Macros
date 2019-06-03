@@ -7,7 +7,8 @@ Mit diesem Makro können Sie die Attachments aller Titel oder eine Auswahl von T
 
 
 ## Download
-[für Citavi](C6_Export_Attachments_to_Category_Folders.cs)
+[für Citavi 6](C6_Export_Attachments_to_Category_Folders.cs)
+[für Citavi 5](C5_Export_Attachments_to_Category_Folders.cs)
 
 ## Anwendung
 Folgen Sie der Anleitung in [diesem Artikel](/readme.de.md), um das Makro einzusetzen.
