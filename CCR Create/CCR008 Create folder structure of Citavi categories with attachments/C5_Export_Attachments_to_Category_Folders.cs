@@ -26,18 +26,18 @@ public static class CitaviMacro
         // V1.2 -- 2016-09-30	- check for valid file names
         // V1.3 -- 2016-10-13   - switch for creation of all category folders (regardless of content)
         //						- check if [Local] or [LAN] attachment is reachable before trying to copy it
+        // V1.4 -- 2019-06-04   - export attachments that do not have a category to an additional folder
 
         // EDIT HERE
         // Variables to be changed by user
 
-        bool createFoldersForAllCategories = true; // set to false if only category folders for references with attachments are required
+        bool createFoldersForAllCategories = false; // set to false if only category folders for references with attachments are required
 
         // DO NOT EDIT BELOW THIS LINE
         // ****************************************************************************************************************
 
         if (Program.ProjectShells.Count == 0) return;       //no project open
 
-        int foundCounter = 0;
         int changeCounter = 0;
         int errorCounter = 0;
 
@@ -89,10 +89,10 @@ public static class CitaviMacro
         }
 
         // export reference Attachments
-
+        DebugMacro.WriteLine("Processing references ...");
         foreach (Reference reference in references)
         {
-            DebugMacro.WriteLine("Processing references ...");
+
             DebugMacro.WriteLine("Processing " + reference.ShortTitle + " ... ");
 
             //establish whether or not there are ATTACHMENTS
@@ -123,17 +123,14 @@ public static class CitaviMacro
                 string categoryPath = String.Join(@"\", categoryPaths);
                 referenceCategoryPaths.Add(categoryPath);
             }
-            if (referenceCategoryPaths == null) continue;
+            if (!referenceCategoryPaths.Any()) referenceCategoryPaths.Add("0 No category");
 
             // create folders if necessary ...
 
             foreach (string referenceCategoryPath in referenceCategoryPaths)
             {
-
                 string fullPath = exportPath + @"\" + referenceCategoryPath;
-
                 CreateFolderStructure(fullPath);
-
                 // ... and export attachments
 
                 foreach (Location referenceAttachment in referenceAttachments)
@@ -179,18 +176,17 @@ public static class CitaviMacro
 
             }
 
-		}        
-        
+        }
+
 
         activeProject.Save();
 
         // Message upon completion
-        string message = "Finished.\n {0} files copied\n {1} thought files created\n {2} errors occurred";
-        message = string.Format(message, changeCounter.ToString(), foundCounter.ToString(), errorCounter.ToString());
+        string message = "Finished.\n {0} files copied\n {1} errors occurred";
+        message = string.Format(message, changeCounter.ToString(), errorCounter.ToString());
         MessageBox.Show(message, "Macro", MessageBoxButtons.OK, MessageBoxIcon.Information);
     }
 
-    // Ask whether backup is available
 
     private static void CreateFolderStructure(string fullPath)
     {

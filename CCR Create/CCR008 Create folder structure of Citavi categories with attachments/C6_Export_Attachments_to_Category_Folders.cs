@@ -22,6 +22,7 @@ public static class CitaviMacro
         //****************************************************************************************************************
         // EXPORT ATTACHMENTS TO CATEGORY FOLDER STRUCTURE
         // V1.5 -- 2019-05-29   - option for creating Location in Citavi for each exported file
+        // v1.6 -- 2019-06-04   - folder for attachments without categories
 
         // EDIT HERE
         // Variables to be changed by user
@@ -29,6 +30,8 @@ public static class CitaviMacro
         bool createFoldersForAllCategories = true; // set to false if only category folders for references with attachments are required
         bool createLocationForExportedFiles = true; // create a new Location in the Citavi project that points to the exported file 
                                                     // local projects only
+
+        string noCategoryFolder = "0 No Category"; // Name of the folder for attachments without categories
                                                     
         // DO NOT EDIT BELOW THIS LINE
         // ****************************************************************************************************************
@@ -124,7 +127,8 @@ public static class CitaviMacro
                 string categoryPath = String.Join(@"\", categoryPaths);
                 referenceCategoryPaths.Add(categoryPath);
             }
-            if (referenceCategoryPaths == null) continue;
+            if (!referenceCategoryPaths.Any())
+                referenceCategoryPaths.Add(noCategoryFolder);
 
             // create folders if necessary ...
 
