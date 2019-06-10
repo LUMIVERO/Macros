@@ -2,9 +2,8 @@
 
 Sie haben im Internet eine PDF-Datei gefunden, die sich in Citavi nicht annotieren lässt. Die PDF-Datei ist nicht schreibgeschützt.
 
-
 ## Lösung
-Das hier bereitgestellte Makro kopiert die SID-Nummer in die Zwischenablage, damit Sie die Nummer dem Support in einer Mail zusenden können.
+Das hier bereitgestellte Werkzeug repariert PDF-Dateien.
 
 ## Download
 
