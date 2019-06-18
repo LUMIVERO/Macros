@@ -1,4 +1,4 @@
-# Apply the hyperlink style to hyperlinks in in-text citations
+# Exclude Citavi fields from Word spellchecker
 
 [[> Deutsche Version](readme.de.md)]
 
