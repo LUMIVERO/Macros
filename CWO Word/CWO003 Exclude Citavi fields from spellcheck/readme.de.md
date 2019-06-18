@@ -1,4 +1,4 @@
-# Hyperlinks im Text Formatvorlage "Hyperlink" zuweisen
+# Citavi-Felder von der Word-Rechtschreibprüfung ausnehmen
 
 [[> English Version](readme.md)]
 
