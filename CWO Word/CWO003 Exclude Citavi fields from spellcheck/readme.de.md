@@ -12,9 +12,9 @@ Das hier bereitgestellte Makro für Microsoft Word kann die Vorlage zuweisen.
 
 ## Anwendung
 
-1. Laden Sie das hier bereitgestellte Makro für Word herunter (mit Rechtsklick auf den Link oben und "Link speichern unter...")
+1. Laden Sie das hier bereitgestellte Makro für Word herunter.
 1. Starten Sie Word.
-1. Drücken Sie in Word `Alt+F11`` , um den VBA-Makro-Editor zu öffnen.
+1. Drücken Sie in Word `Alt+F11` , um den VBA-Makro-Editor zu öffnen.
 1. Wählen Sie im Makro-Editor aus dem Menü **Datei** den Befehl **Datei importieren**.
 1. Wählen Sie die heruntergeladene Datei `C6_ExcludeCitaviFieldsFromSpellCheck.bas` aus.
 1. Schließen Sie den Makro-Editor.
