@@ -38,7 +38,7 @@ public static class CitaviMacro
 
             //------------- SCOPE ----------------------------------------------------------------------------------------------//
             // Would you like to include Abstract, Table of Content and Evaluation fields?
-            bool includeReferencePropertyFields == true // set to false, if only "real" Knowledge Items should be affected			
+            bool includeReferencePropertyFields = true; // set to false, if only "real" Knowledge Items should be affected			
 
             //------------------ FONT -------------------------------------------------------------------------------------------//
             string fontName = "Segoe UI";               //NOTE: Name der Schriftart
