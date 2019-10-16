@@ -14,7 +14,7 @@ Die hier erhältlichen Makros exportieren die Daten von Citavi 4 in eine XML-Dat
 
 ## Anwendung
 
-**Wichitg:** Um das Makro in Citavi 3 anzuwenden, benötigen Sie Citavi 3.4.1.2, das Sie [hier](http://www.citavi.com/sub/setup/citavi3beta/CitaviSetup.exe) zum Download erhalten.
+**Wichtig:** Um das Makro in Citavi 3 anzuwenden, benötigen Sie Citavi 3.4.1.2, das Sie [hier](http://www.citavi.com/sub/setup/citavi3beta/CitaviSetup.exe) zum Download erhalten.
 
 Folgen Sie danach [dieser Anleitung](instructions_de.pdf).
 
