@@ -5,7 +5,7 @@ Sie haben ein Projekt in Citavi 5 erstellt. In diesem Projekt haben Sie an einze
 Das hier erhältliche Makro entfernt die Ordner und verknüpft die enthaltenen Dateien einzeln mit dem jeweiligen Titel in Ihrem Projekt.
 
 ## Download
-[für Citavi 6](Resolve_folder_locations.cs)
+[für Citavi 6.3.11 oder höher](Resolve_folder_locations.cs)
 
 ## Anwendung
 1. Öffnen Sie das Citavi 5-Projekt mit Citavi 6, falls noch nicht geschehen. Wählen Sie als Option, das Projekt als Lokales Projekt zu speichern.
