@@ -8,8 +8,8 @@ Das hier erhältliche Makro entfernt die Ordner und verknüpft die enthaltenen D
 [für Citavi 6.3.11 oder höher](Resolve_folder_locations.cs)
 
 ## Anwendung
-1. Öffnen Sie das Citavi 5-Projekt mit Citavi 6, falls noch nicht geschehen. Wählen Sie als Option, das Projekt als Lokales Projekt zu speichern.
-1. Öffnen Sie im Makro-Editor [s. Handbuch](https://www1.citavi.com/sub/manual6/de/index.html?executing_macros.html) das hier bereitgestellte Makro. 
+1. Öffnen Sie das Citavi-5-Projekt mit Citavi 6, falls noch nicht geschehen. Wählen Sie als Option, das Projekt als Lokales Projekt zu speichern.
+1. Öffnen Sie im Makro-Editor ([s. Handbuch](https://www1.citavi.com/sub/manual6/de/index.html?executing_macros.html)) das hier bereitgestellte Makro. 
 1. Klicken Sie auf **Ausführen**.
 
 ## Autor
