@@ -3,8 +3,8 @@ Sie haben in den [Optionen von Citavi](https://www1.citavi.com/sub/manual6/de/in
 
 ## Lösung
 Das hier erhältliche Makro wandelt die Daten in das ISO Format um:
-- ALT: 03/11/2019 (Citavi erkennt: 11. März 2019)
-- NEU: 2019-11-03
+- ALT: 03/11/2019 (Citavi erkennt das Datum im US Format als 11. März 2019)
+- NEU: 2019-11-03 (Citavi erkennt das Datum im ISO Format als 3. November 2019)
 
 ## Download
 [Convert British to ISO dates](ConvertBritishToISODate.cs)
