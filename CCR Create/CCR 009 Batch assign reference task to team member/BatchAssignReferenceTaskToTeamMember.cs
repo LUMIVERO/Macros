@@ -29,7 +29,7 @@ public static class CitaviMacro
 			return;
 		}
 		
-		ContactInfo taskAssignee = activeProject.Contacts.GetMembers().FirstOrDefault<ContactInfo>(item => item.FullName.Equals("Peter Meurer"));
+		ContactInfo taskAssignee = activeProject.Contacts.GetMembers().FirstOrDefault<ContactInfo>(item => item.FullName.Equals("Jane Doe"));
 		if (taskAssignee == null) 
 		{
 			DebugMacro.WriteLine("No such contact.");
