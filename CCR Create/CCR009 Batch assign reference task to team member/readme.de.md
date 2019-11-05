@@ -1,6 +1,6 @@
 # Mehrere Aufgaben einer Person zuweisen
 
-Sie möchten Aufgaben in einem Cloud-Projekt per Makro an eine bestimmte Person aus einem Team zuweisen. 
+Sie möchten Aufgaben in einem Cloud-Projekt per Makro an eine bestimmte Person aus einem Team zuweisen, ohne die von Citavi dafür bereitgestellte Standardfunktion [(Video)](https://www.screencast.com/t/2OS7ap9vFbm2) zu nutzen.
 
 ## Lösung
 Das hier erhältliche Makro erledigt die Aufgabe für Sie.
