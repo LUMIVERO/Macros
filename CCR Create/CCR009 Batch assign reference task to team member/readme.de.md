@@ -17,4 +17,4 @@ Das hier erhältliche Makro erledigt die Aufgabe für Sie.
 - Treffen Sie eine Auswahl der Titel in Ihrem Projekt, bevor Sie das Makro ausführen. Das Makro wird auf alle Titel der Auswahl angewandt.
 
 ## Autor
-Jörg Pasch @joergpasch
+Jörg Pasch @joepasch
