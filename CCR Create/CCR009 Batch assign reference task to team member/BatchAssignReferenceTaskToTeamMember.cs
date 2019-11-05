@@ -37,7 +37,7 @@ public static class CitaviMacro
 		}			
 		DateTime? dueDate = new DateTime(2019, 12, 31);
 		KnownTaskName taskName = KnownTaskName.ExcerptQuotations;
-			
+		//string taskName = "Do something else with these references.";	
 		
 		foreach (Reference reference in references)
 		{
