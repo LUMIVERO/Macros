@@ -12,7 +12,8 @@ Wir stellen Ihnen ein Makro zur Verfügung, das die Sortierinformationen aus dem
 Weil Sie die Aktion nicht rückgängig machen können, erstellen Sie zuerst eine Sicherungskopie Ihres Projekts:
 - Für Cloud-Projekte:  **Datei** > **Dieses Projekt** > **Archivkopie lokal speichern**
 - Für lokale Projekte: **Datei** > **Dieses Projekt** > **Sicherungskopie**
-1. Kopieren Sie die gewünschten Titel mit der Funktion  **Titel in ein anderes Projekt verschieben/kopieren**, falls noch nicht geschehen. **WICHTIG**: Verwenden Sie **nicht** die Option **verschieben**, da dann die Zitate für die Ermittlung der ursprünglichen Reihenfolge im Quellprojekt nicht mehr zur Verfügung stehen.    
+1. Kopieren Sie die gewünschten Titel mit der Funktion  **Titel in ein anderes Projekt verschieben/kopieren**, falls noch nicht geschehen. **WICHTIG**: Verwenden Sie **nicht** die Option **verschieben**, da dann die Zitate für die Ermittlung der ursprünglichen Reihenfolge im Quellprojekt nicht mehr zur Verfügung stehen.
+1. Falls Sie mit **Gedanken** und **Zwischenüberschriften** gearbeitet haben, kopieren Sie diesem im Quellprojekt und fügen Sie diese über die Zwischenablage im Programmteil Wissensorganisation in das Zielprojekt ein.
 1. Wechseln Sie zum Zielprojekt, das nach dem Kopieren die neuen Titel, Kategorien und Zitate enthält.
 1. Öffnen Sie im Makro-Editor ([s. Handbuch](https://www1.citavi.com/sub/manual6/de/index.html?executing_macros.html)) das hier bereitgestellte Makro. 
 1. Klicken Sie auf **Ausführen**. Das Makro fordert Sie nun auf, das Quellprojekt auszuwählen, aus dem Sie die Sortierung der Wissenselemente übernehmen möchten. Eine Message-Box zeigt an, wenn das Makro alle Kategorien und Zitate geprüft und ggf. die Reihenfolge angepasst hat.
