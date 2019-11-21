@@ -63,7 +63,7 @@
 
 [CFI001](https://github.com/Citavi/Macros/tree/master/CFI%20Find/CFI001%20Find%20files%20not%20present%20in%20the%20project) Find files not present in the project
 
-[CFI002](https://github.com/Citavi/Macros/tree/master/CFI%20Find/CFI002%20Find%20large%20content)Find fields with large content
+[CFI002](https://github.com/Citavi/Macros/tree/master/CFI%20Find/CFI002%20Find%20large%20content) Find fields with large content
 
 ## CIM Import
 
