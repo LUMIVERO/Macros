@@ -12,7 +12,7 @@
 
 [CCH006](https://github.com/Citavi/Macros/tree/master/CCH%20Change/CCH006%20Move%20PDF%20files) Move PDF files
 
-[CCH007](https://github.com/Citavi/Macros/tree/master/CCH%20Change/CCH006%20Move%20PDF%20files) Toggle attachment display in preview
+[CCH007](https://github.com/Citavi/Macros/tree/master/CCH%20Change/CCH007%20Toggle%20attachment%20display%20in%20preview) Toggle attachment display in preview
 
 [CCH008](https://github.com/Citavi/Macros/tree/master/CCH%20Change/CCH008%20Remove%20unwanted%20%5BWeb%5D%20Attachments) Remove unwanted [Web] Attachments
 
