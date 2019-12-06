@@ -22,8 +22,8 @@ public static class CitaviMacro
     {
         //****************************************************************************************************************
         // UPDATE BIBLIOGRAPHIC DATA FROM PMID OR DOI-SEARCH
-        // Version 2.3 -- 2019-05-28
-        //			-- updated to work with Citavi 6
+        // Version 2.4 -- 2019-12-06
+        //			-- updated to work with Citavi 6 (only version 6.3.15 or newer!)
         //
         // This macro iterates through the references in a selection ("filter").
         // If they have a PMID or DOI or ISBN, it downloads bibliographical data and owverwrites the reference's data.
@@ -142,7 +142,7 @@ public static class CitaviMacro
                 if (!overwriteTableOfContents) omitData.Add(ReferencePropertyId.TableOfContents);
                 if (!overwriteKeywords) omitData.Add(ReferencePropertyId.Keywords);
 
-                reference.MergeReference(lookedUpReference, true, omitData);
+                reference.MergeReference(lookedUpReference, true, omitData.ToArray());
 
                 counter++;
 
