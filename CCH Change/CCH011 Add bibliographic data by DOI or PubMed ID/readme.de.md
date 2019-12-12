@@ -1,4 +1,4 @@
-# DOI-Adressen aus verknüpften PDF-Dateien importieren 
+# Bibliographische Daten über die DOI oder PubMed ID hinzufügen
 
 Ihnen liegt ein Projekt vor, in dem mehrere Titel mit unvollständigen Titelangaben enthalten sind. Ein Teil dieser Titel verfügt über DOI-Adressen, ein anderer über PubMed-IDs. Sie möchten anhand der DOI-Adressen oder PubMed-IDs die vorhandenen Titelangaben mit den Daten überschreiben, die crossref.org oder PubMed liefern.
 
