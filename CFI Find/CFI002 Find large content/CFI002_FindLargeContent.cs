@@ -17,7 +17,7 @@ using SwissAcademic.Collections;
 public static class CitaviMacro
 {
 	const double mb = 1; // Size to search for (mb) - adjust if necessary
-	const int bytes = mb * 1024 * 1024;
+	const int bytes = (int)(mb * 1024 * 1024);
 	
 	public static void Main()
 	{
