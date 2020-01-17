@@ -1,4 +1,6 @@
-# How to run a macro in Citavi
+# Macros for Citavi
+
+## How to run a macro in Citavi
 [[> Deutsche Version](readme.de.md)]
 
 Macros are mini-programs that run within Citavi. They let you do things with your project that are not possible with Citavi's standard features. For example, you could batch move contents from one field to another, or sort categories alphabetically.
@@ -15,3 +17,7 @@ If you receive a macro as a file from Citavi support staff, or from a forum post
 1. In the Macro Editor, on the **File** menu, click **Open** and choose the macro file (.cs) you prepared in step 1.
 1. Click **Compile**. No errors should appear in the lower pane of the window. 
 1. Click Run to run the macro. You will be asked to confirm that you created a backup. If you haven't, cancel, create the backup, and then continue.
+
+## License
+
+This project is licensed under the [MIT](LICENSE) License
