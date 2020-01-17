@@ -1,4 +1,4 @@
-# Macros für Citavi
+# Makros für Citavi
 
 [[> English version](readme.md)]
 
