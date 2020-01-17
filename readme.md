@@ -18,6 +18,10 @@ If you receive a macro as a file from Citavi support staff, or from a forum post
 1. Click **Compile**. No errors should appear in the lower pane of the window. 
 1. Click Run to run the macro. You will be asked to confirm that you created a backup. If you haven't, cancel, create the backup, and then continue.
 
+## Support
+
+If you have any questions, comments or requests, please contact the [support](https://www.citavi.com/en/support/overview) directly
+
 ## License
 
 This project is licensed under the [MIT](LICENSE) License
