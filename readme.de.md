@@ -1,7 +1,8 @@
 # Macros für Citavi
 
-## Wie führe ich unter Citavi ein Makro aus?
 [[> English version](readme.md)]
+
+## Wie führe ich unter Citavi ein Makro aus?
 
 Makro-Dateien sind kleine Programme zur Ausführung in Citavi. Sie ermöglichen Operationen auf den Daten Ihrer Projekte, die über den Standard-Funktionsumfang von Citavi hinausgehen. Das können z.B. *Verschiebeoperationen von Feld A zu Feld B* sein oder eine *alphabetische Sortierung der Kategorien* und vieles andere mehr.
 
@@ -18,6 +19,10 @@ Wenn Sie aus dem Forum oder vom Citavi Support eine Makro-Datei zur Ausführung 
 1. Im Makro-Editor laden Sie die oben entpackte .cs-Datei über **Datei > Öffnen**.
 1. Klicken Sie in der Toolbar auf **Kompilieren**. Im unteren Bildschirmbereich sollten keine Fehlermeldungen erscheinen.
 1. Klicken Sie schließlich in der Toolbar auf **Ausführen**, um die Operation durchzuführen (**Wichtig:** Sie müssen nochmals bestätigen, dass Sie zuvor ein Backup erstellt haben. Falls dem nicht so ist, klicken Sie auf **Cancel** und holen Sie das an dieser Stelle bitte nach!)
+
+## Support
+
+Bei Fragen, Anmerkungen oder Wünschen kontaktieren Sie bitte den [Support](https://www.citavi.com/de/support/uebersicht) direkt
 
 ## Lizenz
 
