@@ -1,7 +1,7 @@
 # Macros for Citavi
+[[> Deutsche Version](readme.de.md)]
 
 ## How to run a macro in Citavi
-[[> Deutsche Version](readme.de.md)]
 
 Macros are mini-programs that run within Citavi. They let you do things with your project that are not possible with Citavi's standard features. For example, you could batch move contents from one field to another, or sort categories alphabetically.
 
