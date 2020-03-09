@@ -21,11 +21,11 @@ public static class CitaviMacro
 	public static void Main()
 	{
 		//****************************************************************************************************************
-		// CHANGE NUMERAL SYSTEM FOR ALL KNOWLEDGE ITEMS
+		// CHANGE NUMERAL SYSTEM FOR ALL KNOWLEDGE ITEMS OF THE SELECTED REFERENCES
 		// 1.1 -- 2018-05-29 added ".ToList()" to foreach loop on reference.Quotations to avoid "enumeration changed" errors 
 		// 1.0 -- 2017-12-12
 		//
-		// This macro sets the numeral type to "arabic" for all knowledge items that currently have no numeral system
+		// This macro sets the numeral system to "arabic" for all knowledge items that currently have no numeral system
 		// specified.
 
 		//
@@ -104,6 +104,5 @@ public static class CitaviMacro
 
 		return (MessageBox.Show(warning, "Citavi", MessageBoxButtons.OKCancel, MessageBoxIcon.Exclamation, MessageBoxDefaultButton.Button2) == DialogResult.OK);
 	}
-
 
 }
