@@ -21,10 +21,10 @@ public static class CitaviMacro
 	public static void Main()
 	{
 		//****************************************************************************************************************
-		// CHANGE NUMERAL SYSTEM FOR ALL REFERENCES
+		// CHANGE NUMERAL SYSTEM FOR ALL SELECTED REFERENCES
 		// 1.0 -- 2017-12-12
 		//
-		// This macro changes the numbering type of the page ranges from "no numbering type" to Arabic.
+		// This macro changes the numeral system of the page ranges from "no numbering type" or "None (as entered)" to Arabic.
 		//
 		// EDIT HERE
 		// Variables to be changed by user
@@ -93,6 +93,5 @@ public static class CitaviMacro
 
 		return (MessageBox.Show(warning, "Citavi", MessageBoxButtons.OKCancel, MessageBoxIcon.Exclamation, MessageBoxDefaultButton.Button2) == DialogResult.OK);
 	}
-
 
 }
