@@ -3,6 +3,7 @@ Sie haben Ihre Literatur verschlagwortet. Sie möchten nun statt mit Schlagwört
 
 ## Lösung
 Das hier erhältliche Makro erstellt für jedes Schlagwort eine Kategorie, siehe Screenshot: https://www.screencast.com/t/CteVSePetNp 
+
 Löschen Sie später die nicht mehr benötigten Schlagwörter.
 
 ## Download
