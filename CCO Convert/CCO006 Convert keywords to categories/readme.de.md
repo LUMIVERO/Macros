@@ -7,8 +7,7 @@ Das hier erhältliche Makro erstellt für jedes Schlagwort eine Kategorie, siehe
 Löschen Sie später die nicht mehr benötigten Schlagwörter.
 
 ## Download
-[Convert keywords to categories](Create ConvertKeywordsToCategories_v1.0.cs
-)
+[Convert keywords to categories](Create ConvertKeywordsToCategories_v1.0.cs)
 
 ## Anwendung
 1. Öffnen Sie das betreffende Citavi-Projekt.
