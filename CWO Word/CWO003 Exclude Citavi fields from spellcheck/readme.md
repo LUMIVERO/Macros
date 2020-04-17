@@ -29,3 +29,4 @@ You can now continue inserting references in your document with Citavi's Add-In 
 
 ## Author
 Sebastian Pabel @sebastianpabel
+Updated version from: https://help.citavi.com/topic/deaktivieren-der-word-korrektur-in-quellennachweisen#comment-224602
