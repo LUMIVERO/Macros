@@ -28,4 +28,5 @@ Fügen Sie nun Ihre Referenzen mit Citavis Word Add-In in Ihren Text ein. Klicke
 
 ## Autor
 Sebastian Pabel @sebastianpabel
+
 Update von: https://help.citavi.com/topic/deaktivieren-der-word-korrektur-in-quellennachweisen#comment-224602
