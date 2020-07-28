@@ -6,7 +6,7 @@ Sie haben in Ihrem Citavi-Projekt viele Wissenselemente erfasst, einige davon ma
 Wir stellen Ihnen ein Makro zur Verfügung, das eine solche Auswahl in der Wissensorganisation erstellt.
 
 ## Download
-[für Citavi 6](C6_FindKnowledgeItemsWithouEntityLinks.cs)
+[für Citavi 6](C6_FindKnowledgeItemsWithoutEntityLinks.cs)
 
 ## Anwendung
 Folgen Sie der Anleitung in [diesem Artikel](/readme.de.md), um das Makro einzusetzen.
