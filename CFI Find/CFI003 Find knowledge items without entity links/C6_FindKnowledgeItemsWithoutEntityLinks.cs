@@ -39,16 +39,14 @@ public static class CitaviMacro
 		List<KnowledgeItem> allKis = activeProject.AllKnowledgeItems.ToList();
 		
 		List<KnowledgeItem> noEntityLink = new List<KnowledgeItem>();
-		int counter = 0;
 		
 		try
 		{
 			foreach (KnowledgeItem ki in allKis)
 			{
 				if (ki.QuotationType == QuotationType.None || ki.QuotationType == QuotationType.Highlight) continue;
-				if (ki.EntityLinks == null || ki.EntityLinks.Count() == 0) noEntityLink.Add(ki);				
-				counter++;
-				DebugMacro.WriteLine(ki.CoreStatement + " - " + counter.ToString());
+				if (ki.EntityLinks == null || ki.EntityLinks.Count() == 0) noEntityLink.Add(ki);			
+
 			}
 			
 
