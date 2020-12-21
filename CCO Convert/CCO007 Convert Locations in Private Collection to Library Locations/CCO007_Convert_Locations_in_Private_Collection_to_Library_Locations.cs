@@ -75,7 +75,7 @@ public static class CitaviMacro
 			}
 		}
 		
-		string message = string.Format("Macro finished execution.\r\n\r\nWith {0} reference(s) an overall number of {1} locations in a private collection where converted into library locations.", 
+		string message = string.Format("Macro finished execution.\r\n\r\nWith {0} reference(s) an overall number of {1} locations in a private collection were converted into library locations.", 
 			referenceCounter.ToString(), 
 			locationCounter.ToString());
 		
