@@ -14,7 +14,7 @@ Wir stellen Ihnen ein Makro zur Verfügung, das alle Standorte vom Typ `Private 
 In Zeile 24 können Sie mit einem Schalter festlegen, ob nach der Konvertierung der ursprüngliche Standortnachweis unter `Private Sammlung` gelöscht werden (`true`) oder erhalten bleiben soll (`false`).
 
 Um nach allen Titeln zu suchen, die Teil Ihrer privaten Sammlung sind, nutzen Sie bitte die **Erweiterte Suche** und geben nach Auswahl des Feldes `Standorte (Private Sammlung)` den Wert `*` ein.
-Drücken Sie dann die Tastenkombination <kbd>STRG</kbd>+<kbd>A</kbd> um diejenigen Titel auszuwählen, welche das Makro berücksichtigen soll.
+Drücken Sie dann die Tastenkombination <kbd>STRG</kbd>+<kbd>A</kbd>, um diejenigen Titel auszuwählen, welche das Makro berücksichtigen soll.
  
 Folgen Sie der Anleitung in [unserem Handbuch](https://www1.citavi.com/sub/manual6/de/index.html?executing_macros.html), um das Makro einzusetzen.
 
