@@ -10,9 +10,8 @@ Wir stellen Ihnen ein Makro zur Verfügung, das alle Standorte vom Typ `Private 
 ## Download
 [für Citavi 6](CCO007_Convert_Locations_in_Private_Collection_to_Library_Locations.cs)
 
-
 ## Anwendung
-In Zeile 24 können Sie mit einem Schalter festlegen, ob der Standortnachweis als `Private Sammlung` nach der Konvertierung gelöscht werden (`true`) oder erhalten bleiben soll (`false`).
+In Zeile 24 können Sie mit einem Schalter festlegen, ob nach der Konvertierung der ursprüngliche Standortnachweis unter `Private Sammlung` gelöscht werden (`true`) oder erhalten bleiben soll (`false`).
 
 Um nach allen Titeln zu suchen, die Teil Ihrer privaten Sammlung sind, nutzen Sie bitte die **Erweiterte Suche** und geben nach Auswahl des Feldes `Standorte (Private Sammlung)` den Wert `*` ein.
 Drücken Sie dann die Tastenkombination <kbd>STRG</kbd>+<kbd>A</kbd> um diejenigen Titel auszuwählen, welche das Makro berücksichtigen soll.
