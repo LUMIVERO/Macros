@@ -1,6 +1,6 @@
 # Standortnachweise vom Typ "Private Sammlung" in "Bibliothek" konvertieren
 
-Sie haben für Ihre Literatur als Standortnachweis Ihre `Private Sammlung` hinterlegt. In der Liste der Bibliotheken (im Menü `Listen` > `Biblitoheken`) werden allerdings nur Biblitoheken angezeigt, also keine Einträge, die Sie unter `Private Sammlung` vorgenommen haben.
+Sie haben für Ihre Literatur als Standortnachweis Ihre `Private Sammlung` hinterlegt. In der Liste der Bibliotheken (im Menü `Listen` > `Bibliotheken`) werden allerdings nur eben diese angezeigt, also keine Einträge, die Sie unter `Private Sammlung` vorgenommen haben.
 
 Sie möchten nun daher stattdessen die Standorte lieber als `Bibliothek` erfassen.
 
