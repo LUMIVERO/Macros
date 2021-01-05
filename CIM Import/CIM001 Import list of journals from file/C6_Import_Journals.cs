@@ -155,8 +155,8 @@ public static class CitaviMacro
 		//http://www.west-wind.com/Weblog/posts/197245.aspx
 		//http://de.wikipedia.org/wiki/Byte_Order_Mark
 		
-    	// *** Use Default of Encoding.Default (Ansi CodePage)
-	    Encoding enc = Encoding.Default;
+    	// *** Use Default of UTF8
+	    Encoding enc = Encoding.UTF8;
 
 	    // *** Detect byte order mark if any - otherwise assume default
 	    byte[] buffer = new byte[5];
