@@ -7,7 +7,7 @@ Sie möchten eine Liste der in Citavi vorhandenen Autoren, Herausgeber, Institut
 
 
 ## Download
-[für Citavi 4 und neuer](C4+_Count_References_Per_Persons.cs)
+[für Citavi 4 und neuer](C4%2B_Count_References_Per_Person.cs)
 
 ## Anwendung
 Folgen Sie der Anleitung in [diesem Artikel](/readme.de.md), um das Makro einzusetzen.
