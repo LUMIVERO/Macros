@@ -138,6 +138,7 @@ public static class CitaviMacro
 
             var references = mainForm.GetFilteredReferences();
             List<KnowledgeItem> knowledgeItemList = new List<KnowledgeItem>();
+			
             foreach (Reference reference in references)
             {
                 knowledgeItemList.AddRange(reference.Quotations);
@@ -149,6 +150,13 @@ public static class CitaviMacro
                 }
 
             }
+			
+			foreach (KnowledgeItem thought in activeProject.Thoughts)
+			{
+				knowledgeItemList.Add(thought);
+			}
+			
+			
             KnowledgeItem[] knowledgeItems = knowledgeItemList.ToArray();
 
             object tag = null;
