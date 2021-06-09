@@ -11,7 +11,7 @@ Zudem erscheint die Fehlermeldung:
 
 ```
 In Citavi ist ein Fehler aufgetreten
-Die Fehlermeldung lautet: "Allgemeiner Fehler in GDI+.". [...]
+Die Fehlermeldung lautet: "Allgemeiner Fehler in GDI+." [...]
 ```
 
 Daher möchten Sie alle Kategoriennamen kürzen, die mehr als 100 Zeichen enthalten.
