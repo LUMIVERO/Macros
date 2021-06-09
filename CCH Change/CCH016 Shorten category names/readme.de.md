@@ -21,7 +21,7 @@ Das hier bereitgestellte Makro erfüllt diese Anforderung.
 
 ## Download
 
-[für Citavi 6 und neuer](CCH016%20Shorten%20category%20names.cs)
+[für Citavi 6](CCH016%20Shorten%20category%20names.cs)
 
 ## Anwendung
 Folgen Sie der Anleitung in [diesem Artikel](/readme.de.md), um das Makro einzusetzen.
