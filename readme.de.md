@@ -10,7 +10,7 @@ Makro-Dateien sind in der Programmiersprache C# (sprich "sii-scharp") geschriebe
 
 Wenn Sie aus dem Forum oder vom Citavi Support eine Makro-Datei zur Ausführung unter Citavi bekommen haben, gehen Sie wie folgt vor:
 
-1. Makro-Dateien haben die Endung `.cs`. Wenn Sie ein ZIP-File erhalten haben, entpacken Sie zunächst die Makro-Datei in einem Verzeichnis Ihrer Wahl.
+1. Makro-Dateien haben die Endung `.cs`. Wenn Sie ein ZIP-File erhalten haben, entpacken Sie zunächst die Makro-Datei in einem Verzeichnis Ihrer Wahl. Auf GibHub folgen Sie in der Readme-Datei dem Link zum Makro, klicken oben rechts mit der rechten Maustaste auf die Schaltfläche **Raw** > **Speichern unter** und wählen für die cs-Datei ein beliebiges Verzeichnis aus.
 1. Starten Sie Citavi und öffnen Sie das Projekt, auf welches Sie die vom Makro durchgeführte Operation anwenden wollen. 
 1. **WICHTIG: Erstellen Sie ein Backup dieses Projektes**. Die Erstellung des Backups ist immens wichtig, da das Makro höchstwahrscheinlich Änderungen an den Daten in Ihrem Projekt vornimmt und diese Änderungen nicht einfach rückgängig gemacht werden können.
 1. Viele Makros erlauben es, die damit verbundene Operation nur auf eine Auswahl der Titel anzuwenden und nicht auf alle Titel des Projektes (Sie erkennen dies daran, dass im Programmcode - siehe unten - ein Befehl mit der Endung `.GetFilteredReferences()` verwendet wird). In diesem Fall treffen Sie nun noch in Citavi eine Auswahl an Titeln (z.B. mit den Filter- oder Suchfunktionen). Wenn Sie keine Auswahl treffen, wird die Operation auf alle Titel angewendet.
