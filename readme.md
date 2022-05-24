@@ -9,14 +9,14 @@ Citavi macros are written in the C# ("C sharp") programming language and interac
 
 If you receive a macro as a file from Citavi support staff, or from a forum post, here's how to use it:
 
-1. Macro files have the .cs file extension. If you received the macro in a ZIP archive, be sure to extract it from the ZIP first.
-1. Start Citavi and open the project you want to work on.
-1. **Important: Back up the project before running a macro on it.**  Creating a backup is very important because the changes made by a macro cannot be undone!
-1. Many macros apply to the current selection only, so if you want them to apply only to some references, use the filter or search features to create a selection first. (You can identify a macro that applies to the current selection because the macro's program code will contain `.GetFilteredReferences()` somewhere.)
-1. Press <kbd>Alt</kbd>+<kbd>F11</kbd> (or click **Tools > Options**) to open the Macro Editor. It can take several seconds before it opens.
-1. In the Macro Editor, on the **File** menu, click **Open** and choose the macro file (.cs) you prepared in step 1.
-1. Click **Compile**. No errors should appear in the lower pane of the window. 
-1. Click Run to run the macro. You will be asked to confirm that you created a backup. If you haven't, cancel, create the backup, and then continue.
+1. Macro files have the .cs file extension. If you received the macro in a ZIP archive, be sure to extract it from the ZIP first. On GitHub, follow the link to the macro in the readme file, right-click the **Raw** button at the top right, click **Save As**, and select any directory for the cs file.
+2. Start Citavi and open the project you want to work on.
+3. **Important: Back up the project before running a macro on it.**  Creating a backup is very important because the changes made by a macro cannot be undone!
+4. Many macros apply to the current selection only, so if you want them to apply only to some references, use the filter or search features to create a selection first. (You can identify a macro that applies to the current selection because the macro's program code will contain `.GetFilteredReferences()` somewhere.)
+5. Press <kbd>Alt</kbd>+<kbd>F11</kbd> (or click **Tools > Options**) to open the Macro Editor. It can take several seconds before it opens.
+6. In the Macro Editor, on the **File** menu, click **Open** and choose the macro file (.cs) you prepared in step 1.
+7. Click **Compile**. No errors should appear in the lower pane of the window. 
+8. Click Run to run the macro. You will be asked to confirm that you created a backup. If you haven't, cancel, create the backup, and then continue.
 
 ## Support
 

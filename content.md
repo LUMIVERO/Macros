@@ -81,6 +81,9 @@
 
 [CIM007](https://github.com/Citavi/Macros/tree/master/CIM%20Import/CIM007%20Import%20arbitrary%20data%20from%20Microsoft%20Excel%20into%20custom%20fields%20of%20existing%20references%20by%20short%20title) Import arbitrary data from Microsoft Excel into custom fields of existing references by short title
 
+## CMO Move
+Move the contents of the "Volume" field to the "Year" field
+
 ## COT Other
 
 [COT001](https://github.com/Citavi/Macros/tree/master/COT%20Other/COT001%20Add%20to%20character%20equivalency%20list) Add to character equivalency list
