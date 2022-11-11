@@ -52,48 +52,6 @@ public static class CitaviMacro
 				string shorterSubTitle = reference.Subtitle.Substring(0,100);
 				reference.Subtitle = shorterSubTitle;
 			}			
-		}
-
-
-
-
-		List<KnowledgeItem> allKis = activeProject.AllKnowledgeItems.ToList();
-		
-		List<KnowledgeItem> noEntityLink = new List<KnowledgeItem>();
-		
-		try
-		{
-			foreach (KnowledgeItem ki in allKis)
-			{
-				if (ki.QuotationType == QuotationType.None || ki.QuotationType == QuotationType.Highlight) continue;
-				if (ki.EntityLinks == null || ki.EntityLinks.Count() == 0) noEntityLink.Add(ki);			
-
-			}
-			
-
-			if (noEntityLink.Count > 0)	
-			{
-				noEntityLink = noEntityLink.Distinct().ToList();
-				KnowledgeItemFilter kiFilter = new KnowledgeItemFilter(noEntityLink, "Knowledge items without entity links", false);
-				List<KnowledgeItemFilter> kiFilters = new List<KnowledgeItemFilter>();
-				kiFilters.Add(kiFilter);
-				Program.ActiveProjectShell.PrimaryMainForm.KnowledgeOrganizerFilterSet.Filters.ReplaceBy(kiFilters);
-			}
-		}
-		catch (Exception e)
-		{
-			DebugMacro.WriteLine("An error occurred: " + e.Message);
 		}		
-		finally
-		{
-			if (noEntityLink.Count == 0)
-			{
-				MessageBox.Show("No such KI found.", "Macro", MessageBoxButtons.OK, MessageBoxIcon.Information);
-			}
-			else
-			{
-				MessageBox.Show(string.Format("{0} reference(s) in new selection", noEntityLink.Count), "Macro", MessageBoxButtons.OK, MessageBoxIcon.Information);
-			}
-		}
 	}
 }
