@@ -22,8 +22,9 @@ public static class CitaviMacro
 		//****************************************************************************************************************
 		// Shorten Titles Causing GDI+ Errors
 		// 1.0 - 2022-05-24
+		// 1.1 - 2022-11-11 - added Categories
 		//
-		// Shortens Titles and Subtitles causing GDI+ errors (red X over list of references)
+		// Shortens Titles and Subtitles, and Categories causing GDI+ errors (red X over list of references)
 		//
 		// EDIT HERE
 		// Variables to be changed by user
@@ -52,6 +53,20 @@ public static class CitaviMacro
 				string shorterSubTitle = reference.Subtitle.Substring(0,100);
 				reference.Subtitle = shorterSubTitle;
 			}			
-		}		
+		}	
+		
+		List<Category> categories = project.AllCategories.ToList();
+		
+		foreach (Category category in categories)
+		{
+			if (category.FullName.Length > 500)
+			{
+				string shortName = category.Name.Substring(0,100);
+				category.Name = shortName;
+			}
+		}
+		
+		
+		
 	}
 }
