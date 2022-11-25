@@ -22,6 +22,7 @@ public static class CitaviMacro
 		//****************************************************************************************************************
 		// ADD PARENT CATEGORIES TO REFERENCE
 		// 1.0 - 2016-06-01
+		// 1.1 - 2022-11-25 - check if category numbers are turned on
 		//
 	    // DO NOT EDIT BELOW THIS LINE
 		// ****************************************************************************************************************
@@ -39,8 +40,18 @@ public static class CitaviMacro
 
 		//iterate over all references in the current filter (or over all, if there is no filter)
 		List<Reference> references = Program.ActiveProjectShell.PrimaryMainForm.GetFilteredReferences();
-		List<Category> allCategories = Program.ActiveProjectShell.Project.AllCategories.ToList();
+		
+		List<Category> allCategoriesRaw = Program.ActiveProjectShell.Project.AllCategories.ToList();
 	
+		List<Category> allCategories = new List<Category>();
+		
+		if (!allCategories.FirstOrDefault().FullName.StartsWith(allCategories.FirstOrDefault().Classification))
+		{
+			MessageBox.Show("Turn on category numbers in category list and run again.");
+			return;
+		}
+			
+		
 		//regex for space replacement
 		var space = new Regex(@"\s");
 		
@@ -61,6 +72,7 @@ public static class CitaviMacro
 				List<string> parentCats = catPath.Split(new String[]{" > "}, StringSplitOptions.RemoveEmptyEntries).ToList();
 				parentCats.RemoveAll(string.IsNullOrWhiteSpace);
 				if (parentCats.Count <= 1) continue;
+				
 				foreach (string pc in parentCats)	
 				{			
 					string pcCorrect = space.Replace(pc, "\u00a0", 1); // Category.FullName uses &nbsp; after number, Category.Path doesn't
