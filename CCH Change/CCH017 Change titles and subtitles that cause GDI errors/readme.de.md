@@ -6,7 +6,7 @@ Sie haben in Ihrem Citavi-Projekt Titel oder Untertitel erfasst, die zu lange si
 Wir stellen Ihnen ein Makro zur Verfügung, die diese zu langen Felder kürzt.
 
 ## Download
-[für Citavi 6](C6_FindKnChangeTitlesCausingGDIErrors.cs)
+[für Citavi 6](C6_ChangeTitlesCausingGDIErrors.cs)
 
 ## Anwendung
 Folgen Sie der Anleitung in [diesem Artikel](/readme.de.md), um das Makro einzusetzen.
