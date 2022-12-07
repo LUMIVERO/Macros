@@ -55,7 +55,7 @@ public static class CitaviMacro
 			}			
 		}	
 		
-		List<Category> categories = project.AllCategories.ToList();
+		List<Category> categories = activeProject.AllCategories.ToList();
 		
 		foreach (Category category in categories)
 		{
