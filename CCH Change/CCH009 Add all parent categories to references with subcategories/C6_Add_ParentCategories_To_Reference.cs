@@ -23,6 +23,7 @@ public static class CitaviMacro
 		// ADD PARENT CATEGORIES TO REFERENCE
 		// 1.0 - 2016-06-01
 		// 1.1 - 2022-11-25 - check if category numbers are turned on
+		// 1.2 - 2024-04-29 - bug fixed
 		//
 	    // DO NOT EDIT BELOW THIS LINE
 		// ****************************************************************************************************************
@@ -41,9 +42,13 @@ public static class CitaviMacro
 		//iterate over all references in the current filter (or over all, if there is no filter)
 		List<Reference> references = Program.ActiveProjectShell.PrimaryMainForm.GetFilteredReferences();
 		
-		List<Category> allCategoriesRaw = Program.ActiveProjectShell.Project.AllCategories.ToList();
-	
-		List<Category> allCategories = new List<Category>();
+		List<Category> allCategories = Program.ActiveProjectShell.Project.AllCategories.ToList();
+		
+		if (allCategories == null || allCategories.Count == 0) 
+		{
+			MessageBox.Show("No categories present.");
+			return;
+		}
 		
 		if (!allCategories.FirstOrDefault().FullName.StartsWith(allCategories.FirstOrDefault().Classification))
 		{
