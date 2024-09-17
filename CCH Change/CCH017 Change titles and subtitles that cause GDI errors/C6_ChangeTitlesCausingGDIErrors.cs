@@ -23,8 +23,12 @@ public static class CitaviMacro
 		// Shorten Titles Causing GDI+ Errors
 		// 1.0 - 2022-05-24
 		// 1.1 - 2022-11-11 - added Categories
+		// 1.2 - 2024-07-26 - added Journal Names
 		//
-		// Shortens Titles and Subtitles, and Categories causing GDI+ errors (red X over list of references)
+		// Shortens entity names causing GDI+ errors (red X over list of references):
+		// - Titles and Subtitles
+		// - Categories
+		// - Journal Names
 		//
 		// EDIT HERE
 		// Variables to be changed by user
@@ -66,7 +70,15 @@ public static class CitaviMacro
 			}
 		}
 		
+		List<Periodical> periodicals = activeProject.Periodicals.ToList();
 		
-		
+		foreach (Periodical periodical in periodicals)
+		{
+			if (periodical.FullName.Length > 500)
+			{
+				string shortName = periodical.Name.Substring(0,100);
+				periodical.Name = shortName;
+			}
+		}
 	}
 }
